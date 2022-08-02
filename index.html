@@ -1,34 +1,52 @@
 <body>
   
-  <div>
-  <strong><em>태그를 안쓰고 글자를 써도 잘 나온다 ~ </em></strong>
-    
-    <br>
-    <strong><mark style = 'color : green'> 강조표시 </mark></strong>
+  <div id='intro', style='border: 1px solid black'>
+    <h1>이름과 자기소개</h1>
+    <p>첫번째 구역입니다.</p>
   </div>
-    
-   
-  <div id = 'intro', style = 'border : 1px solid black'>
-    <h1> 이름과 자기소개 </h1>
-    <p> 첫번째 구역입니다.</p>
-    
-    </div>
-    <br>
-   <div style = 'border : 1px solid black'>
-      <h1> 경력 </h1>
-      <p> 두번째 구역입니다.
-        </div>
-        
   <br>
-   <div style = 'border : 1px solid black'>
-     <p title = '질문'>
-       예능프로그램 즐겨 보시나요?
-     <img src="penguin.png" width="250" height="100"> 
-     <img src = 'https://wikidocs.net/images/page/163736/04-1-3.png'>
-    </div>
+  <div id='history', style='border: 1px solid black'>
+    <h1> 경력 </h1>
+    <p>두번째 구역입니다.</p>
+  </div>
+  <br>
+  <div title='프로젝트', style='border: 1px solid black'>
+    <h1> 프로젝트 </h1>
+    
+    <a target="_blank"
+       href="https://github.com/yebiny/SkillTreePython-DeepLearning">
+      
+      딥러닝 스터디</a>
+  </div>
   
-  <div style = 'border : 1px solid black' >
-   <h1> 딥러닝 스터디 </h1>
-   <a href = "https://www.kaggle.com/competitions/hubmap-organ-segmentation">여기</a>
-   </div>
+  <p title='질문'>
+    예능 프로그램 즐겨 보시나요?
+    저는 <span>골때리는 그녀들</span> 재미있게 보고 있습니다!
+  </p>
+
+  <figure>
+  <img src="https://wikidocs.net/images/page/163736/04-1-2.png" 
+       width="250" 
+       height="100"
+       title='이것은 펭귄'> 
+  <figcaption style='text-align:center'> 이것은 펭귄<figcaption>
+  </figure>
+    
+  <picture>
+    <source media="(max-width: 375px)" srcset="image1.png">
+    <source media="(max-width: 768px)" srcset="image2.png">
+    <source media="(max-width: 1024px)" srcset="image3.png">
+    <!--경우에 따라 다른 이미지 대체-->
+  </picture>
+  <!--여기는 주석처리 -->
+    
+    
+  <a href="tel:010-1234-5678">
+    전화 걸기
+  </a>
+  <a href="mailto:eansdrawer@naver.com">
+    메일 보내기
+  </a>
+    
+    
 </body>
