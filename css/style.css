@@ -5,8 +5,7 @@ html, body{
 .bkg__01{
     width: 100%;
     height: 100%;
-    background-image: url("https://github.com/TAEWOOYOON/my_git_portfolio/blob/main/images/JamesWebb_space.jpg?raw=true
-");
+    background-image: url("../images/JamesWebb_space.jpg");
     background-size: cover;
     background-position: center;
 }
