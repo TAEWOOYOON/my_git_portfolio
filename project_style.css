@@ -1,0 +1,38 @@
+html, body{
+    width : 100%;
+    height : 100%;
+    
+}
+.page_text{
+    border : solid black;
+    text-align : center;
+    margin-bottom : 50px;
+    font-family: 'Noto Serif KR';
+}
+.text_title{
+    width : 100%;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Noto Serif KR';
+}
+
+.page_contents{
+    width : 100%;
+    border : solid black;
+    text-align : center;
+}
+
+.content_title{
+    font-size : 30px;
+    font-weight: bold;
+    font-family: 'Noto Serif KR';
+    margin-bottom: 50px;
+}
+
+.content_list{
+    display : inline-block;
+    list-style-type: none;
+    font-family: 'Noto Serif KR';
+    
+}
+
