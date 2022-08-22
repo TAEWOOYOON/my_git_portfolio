@@ -1,0 +1,161 @@
+html, body{
+    width : 80%;
+    height : 50%;
+    position : absolute;
+    align-self: auto;
+    margin-left: 150px;
+}
+
+.page_text{
+    border : solid brown;
+    background-color: antiquewhite;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    text-align : center;
+    margin-bottom : 50px;
+    font-family: 'Noto Serif KR';
+    font-size: 20px;
+    color : chocolate;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%
+}
+.text_title{
+    width : 100%;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Noto Serif KR';
+    color : brown;
+}
+
+.page_division01{
+    border : solid white;
+    background-color : firebrick;
+    width : 50%;
+    height : 50%;
+    position : absolute;
+    top : 250px;
+    border-bottom-style: hidden;
+    border-top-style: hidden;
+    border-color : saddlebrown;
+    color : burlywood
+}
+
+.page_division02{
+    border : solid white;
+    background-color : firebrick;
+    width : 50%;
+    height : 50%;
+    position : absolute;
+    top : 250px;
+    left : 50%;
+    border-bottom-style: hidden;
+    border-top-style: hidden;
+    color : burlywood
+}
+
+.division_text{
+    font-size : 40px;
+    text-align: center;
+    font-family : 'Noto Serif KR';
+    font-weight: : bold;
+}
+
+.page_contents01{
+    width : 40%;
+    top : 400px;
+    border : solid burlywood;
+    border-bottom-style: hidden;
+    text-align : center;
+    position : absolute;
+    right : 50px;
+    transition : all 0.2;
+}
+
+.page_contents01:hover{
+    transform: scale(1.2)
+}
+
+
+.content_title{
+    font-size : 25px;
+    font-weight: bold;
+    font-family: 'Noto Serif KR';
+    margin-bottom: 50px;
+}
+
+.content_list{
+    display : inline-block;
+    list-style-type: none;
+    font-family: 'Noto Serif KR';
+    
+}
+
+.content_text{
+    font-size : 20px;
+}
+
+.page_contents02{
+    width : 40%;
+    top : 400px;
+    border : solid burlywood;
+    border-bottom-style: hidden;
+    text-align : center;
+    position : absolute;
+    left : 50px;
+    transition : all 0.2;
+}
+
+.page_contents02:hover{
+    transform: scale(1.2)
+}
+
+.page_division03{
+    border : solid white;
+    background-color : firebrick;
+    width : 100%;
+    height : 50%;
+    position : absolute;
+    top : 420%;
+    border-bottom-style: hidden;
+    border-top-style: hidden;
+    color : burlywood
+}
+
+.paper_contents01{
+    position : absolute;
+    top : 500%;
+    border : solid gray;
+    text-align : center;
+    left : 45px;
+    transition : all 0.2;
+}
+
+.paper_contents01:hover{
+    transform: scale(1.2)
+}
+
+.paper_contents02{
+    position : absolute;
+    top : 500%;
+    border : solid gray;
+    text-align : center;
+    right : 45px;
+    transition : all 0.2;
+}
+
+.paper_contents02:hover{
+    transform: scale(1.2)
+}
+
+.paper_contents03{
+    position : absolute;
+    top : 730%;
+    border : solid gray;
+    text-align : center;
+    left : 45px;
+    transition : all 0.2;
+}
+
+.paper_contents03:hover{
+    transform: scale(1.2)
+}
