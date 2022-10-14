@@ -37,7 +37,8 @@ Transformer는 locality(위치 정보), **translation equivariance**와 같은 C
 Transformer를 이미지 처리에 적용하기 위해서, 다음과 같은 연구들이 있었습니다.
 
 우선, self-attention을 전체적으로 적용하는것이 아닌, 픽셀의 각 요소의 위치적으로 이웃한 인자들에게 적용되도록 했습니다.
-그러한 local multi-head dot-product self attention은 컨볼루션을 완전히 대체할 수 있게 되었습니다.
+그러한 local multi-head dot-product self attention은 컨볼루션을 완전히 대체할 수 있게 되었습니다. (여기서 multi-head self-attention 이란 self-attention을 병렬적으로 
+사용한것 입니다,)
 
 다음으로 Sparse Transformer는 이미지에 global self-attention을 적용하기 위해 확장 가능한 근사치들을 사용했습니다. attention을 조정하기 위한 다른 대안은
 다양한 크기의 블록에 적용하는 것입니다.
