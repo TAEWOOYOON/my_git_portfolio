@@ -32,3 +32,12 @@ Transformer는 locality(위치 정보), **translation equivariance**와 같은 C
 * translation equivariance : 동일한 물체가 이미지 내에서의 위치만 달라졌다 하더라도 컨벌루션에서는 3X3, 5X5 ...등 sliding window가 이동해가며 feature map들을
 찾아가기 때문에 위치에 관계 없이 같은 값을 낸다는 것 입니다.
 
+## 2. Related Work
+이미지에 self-attention의 나이브 분류 적용을 위해서는 각 픽셀이 다른 모든 픽셀과 연결될 필요가 있습니다.  그러나 2차원 픽셀의 경우 인풋값이 되기에 어려움이 있었죠.
+Transformer를 이미지 처리에 적용하기 위해서, 다음과 같은 연구들이 있었습니다.
+
+우선, self-attention을 전체적으로 적용하는것이 아닌, 픽셀의 각 요소의 위치적으로 이웃한 인자들에게 적용되도록 했습니다.
+그러한 local multi-head dot-product self attention은 컨볼루션을 완전히 대체할 수 있게 되었습니다.
+
+다음으로 Sparse Transformer는 이미지에 global self-attention을 적용하기 위해 확장 가능한 근사치들을 사용했습니다. attention을 조정하기 위한 다른 대안은
+다양한 크기의 블록에 적용하는 것입니다.
