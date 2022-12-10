@@ -72,7 +72,7 @@ html, body{
 }
 
 .page_contents01:hover{
-    transform: scale(1.2)
+    transform: scale(1.05)
 }
 
 
@@ -106,7 +106,7 @@ html, body{
 }
 
 .page_contents02:hover{
-    transform: scale(1.2)
+    transform: scale(1.05)
 }
 
 .page_division03{
@@ -131,7 +131,7 @@ html, body{
 }
 
 .paper_contents01:hover{
-    transform: scale(1.2)
+    transform: scale(1.05)
 }
 
 .paper_contents02{
@@ -144,7 +144,7 @@ html, body{
 }
 
 .paper_contents02:hover{
-    transform: scale(1.2)
+    transform: scale(1.05)
 }
 
 .paper_contents03{
@@ -157,7 +157,7 @@ html, body{
 }
 
 .paper_contents03:hover{
-    transform: scale(1.2)
+    transform: scale(1.05)
 }
 
 .paper_contents04{
@@ -170,5 +170,5 @@ html, body{
 }
 
 .paper_contents04:hover{
-    transform: scale(1.2)
+    transform: scale(1.05)
 }
